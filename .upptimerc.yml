@@ -1,31 +1,56 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
-
+owner: 1webdomain # Your GitHub organization or username, where this repository lives
+repo: up-montalti-win # The name of this repository
+# aggiungere i siti che si desidera monitorare
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: montalti.it
+    url: https://www.montalti.it
+    icon: https://www.google.com/favicon.ico
+  - name: montalti.biz
+    url: https://www.montalti.biz
+    icon: https://www.google.com/favicon.ico
+  - name: montalti.org
+    url: https://www.montalti.org
+    icon: https://www.google.com/favicon.ico
+  - name: montalti.info
+    url: https://www.montalti.info
+    icon: https://www.google.com/favicon.ico
+  - name: montalti.net
+    url: https://www.montalti.net 
+    icon: https://www.google.com/favicon.ico
+  - name: montalti.eu
+    url: https://www.montalti.eu 
+    icon: https://www.google.com/favicon.ico
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  cname: up.montalti.win
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  #logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  name: Monitor 
+  #favicon: https://www.sito.com/favicon.ico
+  #customHeadHtml: " UpTime ad intervalli reali di 5 minuti "
+  #customBodyHtml: " check RealTime "
+  theme: light
+  introTitle: "**UpTime** ad intervalli di 5 minuti."
+  introMessage: Pagina **real-time** di monitor siti
   navbar:
-    - title: Status
+    - title: Stato
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Montalti.win
+      href: https://www.montalti.win
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+i18n:
+  footer: by montalti.win
+  allSystemsOperational: Tutti operativi
+  overallUptimeTitle: uptime complessivo
+  overallUptime: "upTime Totale: $UPTIME"
+  averageResponseTime: "Tempo medio: $TIMEms"
+  averageResponseTimeTitle: T medio
+  sevelDayResponseTime: T settimanale
+  responseTimeMs: T risposta (ms)
+  liveStatus: Live
+
