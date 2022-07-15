@@ -3,24 +3,10 @@ owner: 1webdomain # Your GitHub organization or username, where this repository 
 repo: up-montalti-win # The name of this repository
 # aggiungere i siti che si desidera monitorare
 sites:
-  - name: montalti.it
-    url: https://www.montalti.it
+  - name: montalti.win
+    url: https://www.montalti.win
     icon: https://www.google.com/favicon.ico
-  - name: montalti.biz
-    url: https://www.montalti.biz
-    icon: https://www.google.com/favicon.ico
-  - name: montalti.org
-    url: https://www.montalti.org
-    icon: https://www.google.com/favicon.ico
-  - name: montalti.info
-    url: https://www.montalti.info
-    icon: https://www.google.com/favicon.ico
-  - name: montalti.net
-    url: https://www.montalti.net 
-    icon: https://www.google.com/favicon.ico
-  - name: montalti.eu
-    url: https://www.montalti.eu 
-    icon: https://www.google.com/favicon.ico
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
